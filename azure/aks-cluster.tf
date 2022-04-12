@@ -4,7 +4,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "default" {
   name     = "aks-cluster-rg"
-  location = "West US 2"
+  location = "East US"
 
   tags = {
     environment = "Demo"
